@@ -1,0 +1,16 @@
+Input: {
+  "test": 1,
+  "container": {
+    "phv": {
+      "versBeginn": 123,
+      "beitrag": 44.32
+    },
+    "hausrat": {
+      "versBeginn": 555,
+      "hallo": "toll"
+    }
+  }
+}
+Löschen: container.hausrat.hallo
+Löschen: container.phv.versBeginn
+Output: {"container":{"hausrat":{"versBeginn":555},"phv":{"beitrag":44.32}},"test":1}

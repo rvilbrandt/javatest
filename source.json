@@ -1,0 +1,13 @@
+{
+  "test": 1,
+  "container": {
+    "phv": {
+      "versBeginn": 123,
+      "beitrag": 44.32
+    },
+    "hausrat": {
+      "versBeginn": 555,
+      "hallo": "toll"
+    }
+  }
+}
